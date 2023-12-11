@@ -5,21 +5,25 @@
 
 using namespace std;
 
-class Solution {
-public:
-  vector<vector<string>> groupAnagrams(vector<string> &strs) {
-    unordered_map<string, vector<string>> mp;
+class Solution
+{
+   public:
+    vector<vector<string>> groupAnagrams(vector<string> &strs)
+    {
+        unordered_map<string, vector<string>> mp;
 
-    for (auto str : strs) {
-      string s = str;
-      sort(s.begin(), s.end());
-      mp[s].push_back(str);
-    }
+        for (auto str : strs)
+        {
+            string s = str;
+            sort(s.begin(), s.end());
+            mp[s].push_back(str);
+        }
 
-    vector<vector<string>> ans;
-    for (auto &k : mp) {
-      ans.push_back(k.second);
+        vector<vector<string>> ans;
+        for (auto &k : mp)
+        {
+            ans.push_back(k.second);
+        }
+        return ans;
     }
-    return ans;
-  }
 };
