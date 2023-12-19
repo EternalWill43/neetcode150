@@ -15,10 +15,13 @@ using namespace std;
 
 class Solution
 {
-   public:
-    vector<int> topKFrequent(vector<int> &nums, int k)
+public:
+    vector<int> topKFrequent (vector<int> &nums, int k)
     {
-        if (k == nums.size()) return nums;
+        if (k == nums.size())
+        {
+            return nums;
+        }
 
         unordered_map<int, int> m;
         for (int i : nums)
@@ -26,15 +29,15 @@ class Solution
             m[i]++;
         }
 
-        auto comp = [](const pair<int, int> &a, const pair<int, int> &b) {
-            return a.second > b.second ||
-                   (a.second == b.second && a.first > b.first);
+        auto comp = [] (const pair<int, int> &a, const pair<int, int> &b) {
+            return a.second > b.second
+                   || (a.second == b.second && a.first > b.first);
         };
         vector<pair<int, int>> vec;
 
         for (const auto &[key, value] : m)
         {
-            vec.push_back({key, value});
+            vec.push_back({ key, value });
         }
         sort(vec.begin(), vec.end(), comp);
 
