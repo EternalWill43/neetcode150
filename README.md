@@ -10,6 +10,9 @@
 | [Group Anagrams](https://leetcode.com/problems/contains-duplicate/)                         | :heavy_check_mark: |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           | :heavy_check_mark: |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | :heavy_check_mark: |
-| [Valid Sudoku](https://leetcode.com/problems/contains-duplicate/)                           | :x:                |
-| [Encode and Decode Strings](https://www.lintcode.com/problem/659/)                          | :x:                |
-| [Longest Consecutive Sequence](https://leetcode.com/problems/contains-duplicate/)           | :x:                |
+| [Valid Sudoku](https://leetcode.com/problems/contains-duplicate/)                           | :heavy_check_mark: |
+| [Encode and Decode Strings](https://www.lintcode.com/problem/659/)                          | :heavy_check_mark: |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/contains-duplicate/)           | :heavy_check_mark: |
+
+
+## Two Pointers
