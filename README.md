@@ -14,5 +14,10 @@
 | [Encode and Decode Strings](https://www.lintcode.com/problem/659/)                          | :heavy_check_mark: |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/contains-duplicate/)           | :heavy_check_mark: |
 
-
 ## Two Pointers
+
+| Problem          | Status |
+| ---------------- | ------ |
+| Valid Palindrome | :x:    |
+| Two Sum II       | :x:    |
+| Three Sum        | :x     |
