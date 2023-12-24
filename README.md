@@ -14,7 +14,7 @@
 | [ Encode and Decode Strings ](https://www.lintcode.com/problem/659/)                          | :heavy_check_mark: |
 | [ Longest Consecutive Sequence ](https://leetcode.com/problems/contains-duplicate/)           | :heavy_check_mark: |
 
-## Two Pointers
+### Two Pointers
 
 | Problem                                                                                 | Status             |
 |-----------------------------------------------------------------------------------------|--------------------|
@@ -24,3 +24,9 @@
 | [ Container With Most Water ](https://leetcode.com/problems/container-with-most-water/) | :x:                |
 | [ Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/)             | :x:                |
 
+### Stack
+
+| Problem                                                                 | Status |
+|-------------------------------------------------------------------------|--------|
+| [ Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/) | :x:    |
+| [ Min Stack ](https://leetcode.com/problems/min-stack/)                 | :x:    |
